@@ -50,11 +50,11 @@ graph TB
     MSUsuarios --> DB
     MSStreaming --> DB
 
-    classDef clientStyle fill:#e1f5ff,stroke:#01579b,stroke-width:2px
-    classDef gatewayStyle fill:#fff9c4,stroke:#f57f17,stroke-width:2px
-    classDef bffStyle fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
-    classDef msStyle fill:#f8bbd0,stroke:#c2185b,stroke-width:2px
-    classDef dbStyle fill:#d1c4e9,stroke:#512da8,stroke-width:2px
+    classDef clientStyle fill:#e1f5ff,stroke:#01579b,stroke-width:2px,color:#000000
+    classDef gatewayStyle fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000000
+    classDef bffStyle fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px,color:#000000
+    classDef msStyle fill:#f8bbd0,stroke:#c2185b,stroke-width:2px,color:#000000
+    classDef dbStyle fill:#d1c4e9,stroke:#512da8,stroke-width:2px,color:#000000
 
     class Web,Mobile,TV clientStyle
     class Gateway gatewayStyle
@@ -148,9 +148,9 @@ graph LR
         T7[Navegação simples]
     end
 
-    style Web_BFF_Response fill:#ffcccc
-    style Mobile_BFF_Response fill:#ccffcc
-    style TV_BFF_Response fill:#ccccff
+    style Web_BFF_Response fill:#ffcccc,color:#000000
+    style Mobile_BFF_Response fill:#ccffcc,color:#000000
+    style TV_BFF_Response fill:#ccccff,color:#000000
 ```
 
 ---
@@ -179,14 +179,14 @@ flowchart TD
     
     Response --> End[Cliente recebe<br/>e inicia player]
 
-    style Start fill:#e1f5ff
-    style DetectSpeed fill:#fff9c4
-    style Quality360 fill:#ffcccc
-    style Quality480 fill:#ffe0cc
-    style Quality720 fill:#ccffcc
-    style Quality1080 fill:#ccffee
-    style MSStreaming fill:#f8bbd0
-    style End fill:#d1c4e9
+    style Start fill:#e1f5ff,color:#000000
+    style DetectSpeed fill:#fff9c4,color:#000000
+    style Quality360 fill:#ffcccc,color:#000000
+    style Quality480 fill:#ffe0cc,color:#000000
+    style Quality720 fill:#ccffcc,color:#000000
+    style Quality1080 fill:#ccffee,color:#000000
+    style MSStreaming fill:#f8bbd0,color:#000000
+    style End fill:#d1c4e9,color:#000000
 ```
 
 ---
@@ -227,9 +227,9 @@ graph TB
     Cliente -->|Requisições| BFF
     BFF -->|Requisições| MS
 
-    style Cliente fill:#e1f5ff,stroke:#01579b
-    style BFF fill:#c8e6c9,stroke:#2e7d32
-    style MS fill:#f8bbd0,stroke:#c2185b
+    style Cliente fill:#e1f5ff,stroke:#01579b,color:#000000
+    style BFF fill:#c8e6c9,stroke:#2e7d32,color:#000000
+    style MS fill:#f8bbd0,stroke:#c2185b,color:#000000
 ```
 
 ---
