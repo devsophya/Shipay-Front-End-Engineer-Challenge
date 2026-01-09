@@ -53,7 +53,7 @@ Este repositório contém as soluções para o desafio técnico da **Shipay**, e
 
 ---
 
-## 🔥 Questões Resolvidas
+## 🎉 Questões Resolvidas
 
 ### 🎨 **Questão 01** - Aplicação React com Busca de Produtos
 
@@ -212,4 +212,5 @@ Desenvolvido com dedicação e atenção aos detalhes para o processo seletivo d
 **Made with ❤️ and lots of ☕**
 
 </div>
+
 
