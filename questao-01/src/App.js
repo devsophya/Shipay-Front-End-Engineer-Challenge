@@ -3,6 +3,7 @@ import initialItems from './data';
 import ProductList from './components/ProductList';
 import SearchInput from './components/SearchInput';
 import useDebounce from './hooks/useDebounce';
+import { ReactComponent as ShipayLogo } from './assets/images/Logo.svg';
 import './App.css';
 
 
@@ -25,9 +26,20 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Produtos Transacionais Shipay</h1>
+        <a 
+          href="https://www.shipay.com.br/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="logo-link"
+        >
+          <ShipayLogo className="shipay-logo" />
+        </a>
+        <div className="slogan">
+          <h2>Simplificando</h2>
+          <h1>Pagamentos digitais</h1>
+        </div>
         <p className="app-subtitle">
-          Explore nossa coleção de produtos para pagamentos
+          Explore nossa coleção de produtos
         </p>
       </header>
 
